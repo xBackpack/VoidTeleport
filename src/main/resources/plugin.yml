@@ -1,0 +1,7 @@
+name: VoidTeleport
+version: '0.0.1'
+main: me.xbackpack.voidTeleport.VoidTeleport
+api-version: '1.21'
+prefix: Void Teleport
+authors: [ xBackpack ]
+description: A lightweight and easy-to-use plugin to configure the void on your minecraft server.
