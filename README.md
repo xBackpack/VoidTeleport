@@ -21,8 +21,14 @@ movement packet
 
 ## Getting Started
 
-Firstly, download the plugin from the [Releases](https://github.com/xBackpack/VoidTeleport/releases)
-page and
+1. Download the plugin from the [Releases](https://github.com/xBackpack/VoidTeleport/releases)
+page and drop it into your server plugins folder.
+2. Start your server.
+3. When your server is open, and you have joined, run ```/voidteleport version```.
+4. Make sure that it is the correct plugin version for the minecraft version you are using.
+5. Then, go into the server files, go into the ```plugins``` directory.
+6. Find the ```VoidTeleport``` folder and open it.
+7. Go into the ```config.yml``` file and **follow the instructions**.
 
 ## Dependencies
 
