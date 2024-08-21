@@ -9,3 +9,10 @@ load: POSTWORLD
 website: https://github.com/xBackpack/VoidTeleport
 depend:
   - ProtocolLib
+
+commands:
+  voidteleport:
+    description: The main command for the VoidTeleport plugin
+    usage: /voidteleport [subCommand]
+    permission: voidteleport.command
+    permission-message: You do not have permission to use this command!

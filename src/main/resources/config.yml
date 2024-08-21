@@ -1,0 +1,31 @@
+#######################################
+#                                     #
+#       Void Teleport Configuration   #
+#                                     #
+#######################################
+
+# SETUP INSTRUCTIONS:
+# 1. Add each world's configuration under the "worlds" section.
+# 2. Use the world name as the key, following the example provided with "example_world".
+#
+# CONFIGURATION OPTIONS:
+# - y-level: The vertical level at which the teleportation or kill action is triggered.
+# - kill: Set to true if you want the player to be killed when reaching the specified y-level.
+# - teleport: Set to true if you want the player to be teleported instead of killed when reaching the specified y-level.
+# - teleport-location: The coordinates to which the player should be teleported. This is only necessary if teleport is enabled.
+#
+# NOTE:
+# - If both "kill" and "teleport" are set to true, the player will be killed.
+# - If neither "kill" nor "teleport" are enabled, the player will continue falling into the void without any action taken.
+
+worlds:
+  example_world:
+    y-level: 0.0
+    kill: true
+    teleport: false
+    teleport-location: # This field is unnecessary because "teleport" is set to false.
+      x: 0.0 # Defaults to 0.0
+      y: 0.0 # Defaults to 0.0
+      z: 0.0 # Defaults to 0.0
+      yaw: 0.0 # Defaults to 0.0
+      pitch: 0.0 # Defaults to 0.0
