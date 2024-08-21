@@ -1,6 +1,4 @@
 # Intellij
 .idea/
-*.iml 
-# Maven
-log/
+*.iml
 target/
